@@ -12,7 +12,8 @@ namespace Scratch.Controllers
         public ActionResult Index()
         {
             //return View();
-            return HttpNotFound();
+            //return HttpNotFound();
+            return Content("File got ddddlllll");
         }
     }
 }
